@@ -62,13 +62,15 @@
                             <p>While containers can be nested, most layouts do not require a nested container.</p>
 
                             <pre>
-                            <code>&lt;div class="container">&lt;/div&gt;</code>
+                            <code>
+                            &lt;div class="container">&lt;/div&gt</code>
                             </pre>
 
                             <p>Use <code class="highlight-rouge">.container-fluid</code> for a full width container, spanning the entire width of the viewport.</p>
 
                             <pre>
-                            <code>&lt;div class="container-fluid">...&lt;/div&gt;</code>
+                            <code>
+                            &lt;div class="container-fluid">...&lt;/div&gt;</code>
                             </pre>
 
                             <h3>Z-index</h3>
@@ -76,16 +78,16 @@
                             <p>These higher values start at an arbitrary number, high and specific enough to ideally avoid conflicts. We need a standard set of these across our layered components—tooltips, popovers, navbars, dropdowns, modals—so we can be reasonably consistent in the behaviors. There’s no reason we couldn’t have used <code class="highlight-rouge">100+</code> or <code class="highlight-rouge">500+</code>.</p>
 
                             <pre>
-                            <code>$zindex-dropdown:          1000 !default;
+                            <code>
+                            $zindex-dropdown:          1000 !default;
                             $zindex-sticky:            1020 !default;
                             $zindex-fixed:             1030 !default;
                             $zindex-modal-backdrop:    1040 !default;
                             $zindex-modal:             1050 !default;
                             $zindex-popover:           1060 !default
-                            $zindex-tooltip:           1070 !default;
-                            </code>
+                            $zindex-tooltip:           1070 !default;</code>
                             </pre>
-                        </article>                    
+                        </article>                   
                     </section>
 
                     <section class="main-section" id="Content">
@@ -112,7 +114,8 @@
                             <p>The <code class="highlight-rouge">&lt;pre&gt;</code> element is reset to remove its <code class="highlight-rouge">margin-top</code> and use <code class="highlight-rouge">rem</code> units for its <code class="highlight-rouge">margin-bottom</code>.</p>
 
                             <pre>
-                            <code>.example-element {
+                            <code>
+                            .example-element {
                             margin-bottom: 1rem;
                             }</code>
                             </pre>
@@ -126,7 +129,8 @@
                             <p>Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight required contextual classes (e.g., <code class="highlight-rouge">.alert-success</code>). For inline dismissal, use the alerts jQuery plugin.</p>
 
                             <pre>
-                            <code>class="bl">&lt;div&gt; class="alert alert-primary" role="alert">
+                            <code>
+                            class="bl">&lt;div&gt; class="alert alert-primary" role="alert">
                             This is a primary alert—check it out!&lt;/div&gt;
                             &lt;div&gt; class="alert alert-secondary" role="alert">
                             This is a secondary alert—check it out!
@@ -148,15 +152,15 @@
                             &lt;/div&gt;
                             &lt;div&gt; class="alert alert-dark" role="alert">
                             This is a dark alert—check it out!
-                            &lt;/div&gt;
-                            </code>
+                            &lt;/div&gt;</code>
                             </pre>
 
                             <h3>Badges</h3>
                             <p>Badges scale to match the size of the immediate parent element by using relative font sizing and <code class="highlight-rouge">em</code> units.</p>
 
                             <pre>
-                            <code>&lt;h1&gt;Example heading &lt;span class="badge badge-secondary">
+                            <code>
+                            &lt;h1&gt;Example heading &lt;span class="badge badge-secondary">
                             New&lt;/span&gt;&lt;/h1&gt;
                             &lt;h2&gt;Example heading &lt;span class="badge badge-secondary">
                             New&lt;/span&gt;&lt;/h2&gt;
